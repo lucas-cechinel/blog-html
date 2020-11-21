@@ -14,7 +14,7 @@
     <!-- Estilos css -->
     <link rel="stylesheet" type="text/css" href="css/estilos.css">
 
-    <title>Blog do Lucas</title>
+    <title>Impacto dos influenciadores</title>
 
     <!--Favicon-->
     <link rel="icon" href="img/favicon.png">
@@ -23,22 +23,20 @@
 
     <script src="javascript.js" type="text/javascript"></script>
 
-
   </head>
-
   <body id="bg-custom">
 
-    <div class="fundo text-white text-center">
-      <h1 class="display-3 nome">Lucas Cechinel</h1>
-      <h3 class="funcao">Estudante e progamador</h3>
-    </div>
+    <div class="m-0 p-0">
 
-    <div class="m-0 p-0 text-white">
-      
+          <div class="fundo text-white text-center pb-3">
+            <h1 class="display-3 pb-5 nome">Lucas Cechinel</h1>
+            <h3 class="funcao">Estudante e progamador</h3>
+          </div>
+          
           <!-- Começo cabeçalho -->
             <header class="border-bottom border-top border-secondary">
 
-              <nav class="navbar navbar-expand-md navbar-dark bg-dark py-3"> <!-- Início navegação -->
+              <nav class="navbar  navbar-expand-md navbar-dark bg-dark py-3" > <!-- Início navegação -->
 
                 <!-- Botão hamburguer -->
                 <button class="navbar-toggler w-100" data-toggle="collapse" 
@@ -73,105 +71,30 @@
 
         <!-- Fim cabeçalho -->
 
-        <div class="pb-2" id="bg-custom">
+        <!--Início conteúdo-->
+        <section class="container py-5">
 
-          <section class="container"> <!-- Início conteúdo -->
+            <h1 class="text-center h3">O impacto dos influenciadores digitais na formação dos jovens</h1><br>
 
+            <div class="text-justify">
+              <p>&nbsp;&nbsp;&nbsp;&nbsp;Hoje em dia é bem comum ouvir falar em influencers, geralmente o termo é usado para descrever personalidades do mundo digital ou que tem bastante poder de influenciar um determinado público, isso foi aproveitado pelas diversas empresas que os contratam para fazer propagandas de seus produtos, muitos deles usam desse poder para conseguir dinheiro, ganhar visualizações, gerar polêmica e até falar sobre política.</p>
 
-          <h3 class="text-center py-3">Início</h3><br>
-          
-          <div>
+              <p>&nbsp;&nbsp;&nbsp;&nbsp;Com todos esses “poderes”,na minha opinião, eles têm que ter o mínimo de responsabilidade e nos temos que exigir isso deles, mas você pode estar se perguntando: Que responsabilidades? As responsabilidades de não ensinar coisas erradas ou inventar mentiras para atacar alguém, primeiro porque o acesso à eles é quase livre, podendo qualquer um assistir à seus conteúdos, inclusive crianças que podem ser facilmente influenciadas a fazer o que eles fazem e outro motivo é porque qualquer ataque que é feito por eles à outra pessoa circula na internet com uma rapidez que é quase impossível de controlar.</p> 
 
-            <!--Início Postagens-->
+              <p>&nbsp;&nbsp;&nbsp;&nbsp;Mas, ao meu ver, não adianta só os influencers tomarem medidas para que não deem maus exemplos às crianças, principalmente se seu público for infantil, mas cabe aos responsáveis monitorarem o que seus filhos acessam na internet.</p> 
 
-            <h5 >Postagens recentes </h5><br>
-
-            <div class="media mb-4">
-
-              <img src="img/postagem-caixa.jpg" class="mr-3 align-self-center d-none d-md-block"> 
-
-              <div class="media-body">
-                <p><a href="caixa-madeira.php" class="h3 text-decoration-none">O conto da caixa de madeira</a></p>
-
-                <blockquote>
-                <cite class="text-secondary">Por Lucas Cechinel 28/10/2020</cite>
-                </blockquote>
-
-              </div>
-
+               <p>&nbsp;&nbsp;&nbsp;&nbsp;Outro problema que é cometido por muitos youtubers com milhões de seguidores, contudo não deveria, é falar sobre política, quando seu público não está interessado nisto, nem quando o foco do “canal” é esse. Já me desinteressei de consumir conteúdos de alguns deles por isso, porque o assunto pelo qual estou interessado é o tema e não sobre a opinião dele(a) sobre política e, convenhamos, é uma situação muito desagradável quando achamos um conteúdo interessante e são inseridas opiniões políticas. Isto pode ser prejudicial para o próprio, já que ao mesmo tempo que atrai pessoas, faz com que muitos de seus seguidores se afastem.Influencers podem sim demonstrar seus julgamentos sobre os mais diversos assuntos, mas há plataformas melhores para se fazer isso do que, por exemplo, o youtube, tais como o twitter, onde já se sabe que se vai encontrar este tipo de assunto.</p>
             </div>
+             
 
-            <div class="media mb-4">
-
-              <img src="img/postagem-robo.jpg" class="mr-3 align-self-center d-none d-md-block"> 
-
-              <div class="media-body">
-                <p><a href="inteligencia-artificial.php" class="h3 text-decoration-none">Inteligência artificial: Benigna ou maligna</a></p>
-
-                <blockquote>
-                <cite class="text-secondary">Por Lucas Cechinel 14/10/2020</cite>
-                </blockquote>
-
-              </div>
-
-            </div>
-
-            <div class="media mb-4">
-
-              <img src="img/postagem-plagio.jpg" class="mr-3 align-self-center d-none d-md-block"> 
-
-              <div class="media-body">
-                <p><a href="plagio.php" class="h3 text-decoration-none">O perigo do plágio</a></p>
-
-                <blockquote>
-                <cite class="text-secondary">Por Lucas Cechinel 30/09/2020</cite>
-                </blockquote>
-
-              </div>
-
-            </div>
-
-            <div class="media mb-4">
-
-              <img src="img/postagem-pirata.jpg" class="mr-3 align-self-center d-none d-md-block"> 
-
-              <div class="media-body">
-                <p><a href="consequencias-pirataria.php" class="h3 text-decoration-none">Consequências da pirataria na sociedade</a></p>
-
-                <blockquote>
-                <cite class="text-secondary">Por Lucas Cechinel 25/09/2020</cite>
-                </blockquote>
-
-              </div>
-
-            </div>
-
-            <div class="media">
-
-              <img src="img/postagem-influenciador.png" class="mr-3 align-self-center d-none d-md-block"> 
-
-              <div class="media-body">
-                <p><a href="impacto-influenciadores.php" class="h3 text-decoration-none">O impacto dos influenciadores digitais na formação dos jovens</a></p>
-
-                <blockquote>
-                <cite class="text-secondary">Por Lucas Cechinel 18/09/2020</cite>
-                </blockquote>
-
-              </div>
-
-            </div><!--Fim Postagens-->
-
-          </div>
-          
-        </section> <!-- Fim conteúdo -->
-
-        </div>
-
-        
+            
 
 
+        </section>
 
-          <footer class="bg-dark mt-0" onclick="loginIndispoivel()"><!--Início rodapé-->
+        <!--Fim conteúdo-->
+
+          <footer class="bg-dark" onclick="loginIndispoivel()"><!--Início rodapé-->
 
             <div class="media py-3 pl-5 pr-5 row">
 
@@ -188,10 +111,11 @@
               </div>
 
             </div>
-
+            
               <div class="pb-2 text-center" id="creditos-ulisses">
                 <h5>Veja também o site de: <a href="https://ulissesjoaodeoliveira.000webhostapp.com/" class="text-secondary text-decoration-none">Ulisses João de Oliveira</a></h5>
               </div>
+
 
           </footer><!--Fim rodapé-->
 

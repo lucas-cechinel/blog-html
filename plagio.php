@@ -14,7 +14,7 @@
     <!-- Estilos css -->
     <link rel="stylesheet" type="text/css" href="css/estilos.css">
 
-    <title>Blog do Lucas</title>
+    <title>Plágio em nosso dia a dia</title>
 
     <!--Favicon-->
     <link rel="icon" href="img/favicon.png">
@@ -23,22 +23,20 @@
 
     <script src="javascript.js" type="text/javascript"></script>
 
-
   </head>
-
   <body id="bg-custom">
 
-    <div class="fundo text-white text-center">
-      <h1 class="display-3 nome">Lucas Cechinel</h1>
-      <h3 class="funcao">Estudante e progamador</h3>
-    </div>
+    <div class="m-0 p-0">
 
-    <div class="m-0 p-0 text-white">
-      
+          <div class="fundo text-white text-center pb-3">
+            <h1 class="display-3 pb-5 nome">Lucas Cechinel</h1>
+            <h3 class="funcao">Estudante e progamador</h3>
+          </div>
+          
           <!-- Começo cabeçalho -->
             <header class="border-bottom border-top border-secondary">
 
-              <nav class="navbar navbar-expand-md navbar-dark bg-dark py-3"> <!-- Início navegação -->
+              <nav class="navbar  navbar-expand-md navbar-dark bg-dark py-3" > <!-- Início navegação -->
 
                 <!-- Botão hamburguer -->
                 <button class="navbar-toggler w-100" data-toggle="collapse" 
@@ -73,105 +71,42 @@
 
         <!-- Fim cabeçalho -->
 
-        <div class="pb-2" id="bg-custom">
+        <!--Início conteúdo-->
+        <section class="container py-5">
 
-          <section class="container"> <!-- Início conteúdo -->
+            <h1 class="text-center h3">O perigo do plágio</h1><br>
 
+            <div class="text-justify">
 
-          <h3 class="text-center py-3">Início</h3><br>
-          
-          <div>
+              <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;Copiar algo completa ou parcialmente, sem dar os devidos créditos, ou sem a autorização do autor é crime com pena prevista em lei. O plágio é algo muito sério, mas que está bem presente em nossas vidas. Quando estamos com pressa para realizar um trabalho e copiamos algo do amigo, ou quando fazemos a prova e, com medo de tirar uma nota baixa, copiamos as respostas do colega do lado, estamos cometendo este "crime".
+              </p>
 
-            <!--Início Postagens-->
+              <p>
+                &nbsp;&nbsp;&nbsp;&nbsp; Na minha opinião, o plágio é algo que é menosprezado em nossa sociedade, tanto que não é  incomum ouvir alguém dizendo que colou em um trabalho ou copiou de alguma fonte. Tal atitude demonstra  que o plágio não é visto como algo sério e que precisa sair de nossa sociedade o quanto antes. Julgo que o plágio seja um ato grave contra os criadores de algum produto ou informação. Se você não sabe os riscos que plagiar traz para você, o Crime de Violação aos Direitos Autorais, Art. 184 do Código Penal, esclarece-os: Violar direitos de autor e os que lhe são conexos:
+                Pena – detenção, de 3 (três) meses a 1 (um) ano, ou multa. 
+                § 1o Se a violação consistir em reprodução total ou parcial, com intuito de
+                lucro direto ou indireto, por qualquer meio ou processo, de obra intelectual,
+                interpretação, execução ou fonograma, sem autorização expressa do autor, do
+                artista intérprete ou executante, do produtor, conforme o caso, ou de quem os
+                represente: Pena – reclusão, de 2 (dois) a 4 (quatro) anos, e multa.
+              </p>
 
-            <h5 >Postagens recentes </h5><br>
-
-            <div class="media mb-4">
-
-              <img src="img/postagem-caixa.jpg" class="mr-3 align-self-center d-none d-md-block"> 
-
-              <div class="media-body">
-                <p><a href="caixa-madeira.php" class="h3 text-decoration-none">O conto da caixa de madeira</a></p>
-
-                <blockquote>
-                <cite class="text-secondary">Por Lucas Cechinel 28/10/2020</cite>
-                </blockquote>
-
-              </div>
-
-            </div>
-
-            <div class="media mb-4">
-
-              <img src="img/postagem-robo.jpg" class="mr-3 align-self-center d-none d-md-block"> 
-
-              <div class="media-body">
-                <p><a href="inteligencia-artificial.php" class="h3 text-decoration-none">Inteligência artificial: Benigna ou maligna</a></p>
-
-                <blockquote>
-                <cite class="text-secondary">Por Lucas Cechinel 14/10/2020</cite>
-                </blockquote>
-
-              </div>
+              <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;Em meus julgamentos, penso que deveríamos ensinar as crianças desde cedo o nível e o risco do crime que cometemos quado copiamos algo de alguém. Mesmo faltando pouco tempo para a entrega de um trabalho, concluo que é melhor entregar algo original feito às pressas, do que cometer um delito e colar de seu colega ou de outra fonte. 
+              </p>
 
             </div>
+             
 
-            <div class="media mb-4">
-
-              <img src="img/postagem-plagio.jpg" class="mr-3 align-self-center d-none d-md-block"> 
-
-              <div class="media-body">
-                <p><a href="plagio.php" class="h3 text-decoration-none">O perigo do plágio</a></p>
-
-                <blockquote>
-                <cite class="text-secondary">Por Lucas Cechinel 30/09/2020</cite>
-                </blockquote>
-
-              </div>
-
-            </div>
-
-            <div class="media mb-4">
-
-              <img src="img/postagem-pirata.jpg" class="mr-3 align-self-center d-none d-md-block"> 
-
-              <div class="media-body">
-                <p><a href="consequencias-pirataria.php" class="h3 text-decoration-none">Consequências da pirataria na sociedade</a></p>
-
-                <blockquote>
-                <cite class="text-secondary">Por Lucas Cechinel 25/09/2020</cite>
-                </blockquote>
-
-              </div>
-
-            </div>
-
-            <div class="media">
-
-              <img src="img/postagem-influenciador.png" class="mr-3 align-self-center d-none d-md-block"> 
-
-              <div class="media-body">
-                <p><a href="impacto-influenciadores.php" class="h3 text-decoration-none">O impacto dos influenciadores digitais na formação dos jovens</a></p>
-
-                <blockquote>
-                <cite class="text-secondary">Por Lucas Cechinel 18/09/2020</cite>
-                </blockquote>
-
-              </div>
-
-            </div><!--Fim Postagens-->
-
-          </div>
-          
-        </section> <!-- Fim conteúdo -->
-
-        </div>
-
-        
+            
 
 
+        </section>
 
-          <footer class="bg-dark mt-0" onclick="loginIndispoivel()"><!--Início rodapé-->
+        <!--Fim conteúdo-->
+
+          <footer class="bg-dark" onclick="loginIndispoivel()"><!--Início rodapé-->
 
             <div class="media py-3 pl-5 pr-5 row">
 
@@ -188,10 +123,11 @@
               </div>
 
             </div>
-
+            
               <div class="pb-2 text-center" id="creditos-ulisses">
                 <h5>Veja também o site de: <a href="https://ulissesjoaodeoliveira.000webhostapp.com/" class="text-secondary text-decoration-none">Ulisses João de Oliveira</a></h5>
               </div>
+
 
           </footer><!--Fim rodapé-->
 

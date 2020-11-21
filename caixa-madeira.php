@@ -14,7 +14,7 @@
     <!-- Estilos css -->
     <link rel="stylesheet" type="text/css" href="css/estilos.css">
 
-    <title>Blog do Lucas</title>
+    <title>Caixa de madeira</title>
 
     <!--Favicon-->
     <link rel="icon" href="img/favicon.png">
@@ -23,22 +23,20 @@
 
     <script src="javascript.js" type="text/javascript"></script>
 
-
   </head>
-
   <body id="bg-custom">
 
-    <div class="fundo text-white text-center">
-      <h1 class="display-3 nome">Lucas Cechinel</h1>
-      <h3 class="funcao">Estudante e progamador</h3>
-    </div>
+    <div class="m-0 p-0">
 
-    <div class="m-0 p-0 text-white">
-      
+          <div class="fundo text-white text-center pb-3">
+            <h1 class="display-3 pb-5 nome">Lucas Cechinel</h1>
+            <h3 class="funcao">Estudante e progamador</h3>
+          </div>
+          
           <!-- Começo cabeçalho -->
             <header class="border-bottom border-top border-secondary">
 
-              <nav class="navbar navbar-expand-md navbar-dark bg-dark py-3"> <!-- Início navegação -->
+              <nav class="navbar  navbar-expand-md navbar-dark bg-dark py-3" > <!-- Início navegação -->
 
                 <!-- Botão hamburguer -->
                 <button class="navbar-toggler w-100" data-toggle="collapse" 
@@ -73,105 +71,45 @@
 
         <!-- Fim cabeçalho -->
 
-        <div class="pb-2" id="bg-custom">
+        <!--Início conteúdo-->
+        <section class="container py-5">
 
-          <section class="container"> <!-- Início conteúdo -->
+            <h1 class="text-center h3">O conto da caixa de madeira</h1><br>
 
+            <div class="text-justify">
 
-          <h3 class="text-center py-3">Início</h3><br>
-          
-          <div>
+              <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;Meu pai, ainda moço, pediu-me para guardar a caixa de madeira. Pesada e escura. Fez-me jurar que eu jamais a abriria sem o consentimento dele. Ainda que contrariada, aprendi a respeitar o segredo de meu pai – não abri a caixa, até que, um dia, quando ele já estava muito doente, apenas levantou os olhos e me disse:<br>
+                — Filha, a caixa... Você já pode abrir a caixa.
+                E então meu pai descansou, tranquilo. 
 
-            <!--Início Postagens-->
+              </p>
+              <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;A caixa possuía um pequeno cadeado de números, bastou eu colocar minha data de nascimento e ele abriu, fácil até para uma criança de 6 anos. Em seu interior havia um papelzinho muito velho e amarelado com a seguinte charada: “Uma casa com doze meninas. Cada uma com quatro quartos, todas elas usam meias, nenhuma rompe sapatos.”
+              </p>
+              <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;Confesso que essa charada foi bem difícil e que demorei a solucioná-la, mas depois de um tempo lembrei de um relógio cuco que meu pai havia deixado de usar faz muito tempo, a resposta relógio fazia sentido já que doze meninas são as 12 horas e cada hora com quatro quartos e todas possuem “meias horas”, a parte do sapato eu não entendi, mas isso pouco me importava. 
+              </p>
+              <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;Quando finalmente achei o relógio cuco eu o desmontei e dentro achei um lindo colar em formato de coração e nele havia uma outra folha contendo outra charada: “Mesmo atravessando o rio não se molha”. Pensando achei que a resposta era ponte, meu pai não iria esconder algo lá, então voltei a pensar e lembrei que quando era criança ele havia construído uma pequena ponte para atravessar o açude em seu sítio, então tive que ir até lá.
+              </p>
+              <p>
+                
+                &nbsp;&nbsp;&nbsp;&nbsp;Chegando no local eu vasculhei e achei um papel contendo o seguinte escrito: “Lembra de quando brincávamos de caça ao tesouro, você adorava e por isso preparei essa surpresa quando meu dia fatídico chegar e você ter mais um momento de alegria.”. Quando li aquilo fiquei muito surpreso e pensando como meu pai havia feito tudo aquilo somente para não me sentir sozinho no dia em que falecesse.
 
-            <h5 >Postagens recentes </h5><br>
-
-            <div class="media mb-4">
-
-              <img src="img/postagem-caixa.jpg" class="mr-3 align-self-center d-none d-md-block"> 
-
-              <div class="media-body">
-                <p><a href="caixa-madeira.php" class="h3 text-decoration-none">O conto da caixa de madeira</a></p>
-
-                <blockquote>
-                <cite class="text-secondary">Por Lucas Cechinel 28/10/2020</cite>
-                </blockquote>
-
-              </div>
-
-            </div>
-
-            <div class="media mb-4">
-
-              <img src="img/postagem-robo.jpg" class="mr-3 align-self-center d-none d-md-block"> 
-
-              <div class="media-body">
-                <p><a href="inteligencia-artificial.php" class="h3 text-decoration-none">Inteligência artificial: Benigna ou maligna</a></p>
-
-                <blockquote>
-                <cite class="text-secondary">Por Lucas Cechinel 14/10/2020</cite>
-                </blockquote>
-
-              </div>
+              </p>
 
             </div>
+             
 
-            <div class="media mb-4">
-
-              <img src="img/postagem-plagio.jpg" class="mr-3 align-self-center d-none d-md-block"> 
-
-              <div class="media-body">
-                <p><a href="plagio.php" class="h3 text-decoration-none">O perigo do plágio</a></p>
-
-                <blockquote>
-                <cite class="text-secondary">Por Lucas Cechinel 30/09/2020</cite>
-                </blockquote>
-
-              </div>
-
-            </div>
-
-            <div class="media mb-4">
-
-              <img src="img/postagem-pirata.jpg" class="mr-3 align-self-center d-none d-md-block"> 
-
-              <div class="media-body">
-                <p><a href="consequencias-pirataria.php" class="h3 text-decoration-none">Consequências da pirataria na sociedade</a></p>
-
-                <blockquote>
-                <cite class="text-secondary">Por Lucas Cechinel 25/09/2020</cite>
-                </blockquote>
-
-              </div>
-
-            </div>
-
-            <div class="media">
-
-              <img src="img/postagem-influenciador.png" class="mr-3 align-self-center d-none d-md-block"> 
-
-              <div class="media-body">
-                <p><a href="impacto-influenciadores.php" class="h3 text-decoration-none">O impacto dos influenciadores digitais na formação dos jovens</a></p>
-
-                <blockquote>
-                <cite class="text-secondary">Por Lucas Cechinel 18/09/2020</cite>
-                </blockquote>
-
-              </div>
-
-            </div><!--Fim Postagens-->
-
-          </div>
-          
-        </section> <!-- Fim conteúdo -->
-
-        </div>
-
-        
+            
 
 
+        </section>
 
-          <footer class="bg-dark mt-0" onclick="loginIndispoivel()"><!--Início rodapé-->
+        <!--Fim conteúdo-->
+
+          <footer class="bg-dark" onclick="loginIndispoivel()"><!--Início rodapé-->
 
             <div class="media py-3 pl-5 pr-5 row">
 
@@ -188,10 +126,11 @@
               </div>
 
             </div>
-
+            
               <div class="pb-2 text-center" id="creditos-ulisses">
                 <h5>Veja também o site de: <a href="https://ulissesjoaodeoliveira.000webhostapp.com/" class="text-secondary text-decoration-none">Ulisses João de Oliveira</a></h5>
               </div>
+
 
           </footer><!--Fim rodapé-->
 

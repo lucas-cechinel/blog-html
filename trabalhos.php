@@ -14,7 +14,7 @@
     <!-- Estilos css -->
     <link rel="stylesheet" type="text/css" href="css/estilos.css">
 
-    <title>Blog do Lucas</title>
+    <title>Trabalhos</title>
 
     <!--Favicon-->
     <link rel="icon" href="img/favicon.png">
@@ -23,22 +23,20 @@
 
     <script src="javascript.js" type="text/javascript"></script>
 
-
   </head>
-
   <body id="bg-custom">
 
-    <div class="fundo text-white text-center">
-      <h1 class="display-3 nome">Lucas Cechinel</h1>
-      <h3 class="funcao">Estudante e progamador</h3>
+    <div class="fundo text-white text-center pb-3">
+        <h1 class="display-3 pb-5 nome">Lucas Cechinel</h1>
+        <h3 class="funcao">Estudante e progamador</h3>
     </div>
 
-    <div class="m-0 p-0 text-white">
+    <div class="m-0 p-0">
       
           <!-- Começo cabeçalho -->
             <header class="border-bottom border-top border-secondary">
 
-              <nav class="navbar navbar-expand-md navbar-dark bg-dark py-3"> <!-- Início navegação -->
+              <nav class="navbar  navbar-expand-md navbar-dark bg-dark py-3" > <!-- Início navegação -->
 
                 <!-- Botão hamburguer -->
                 <button class="navbar-toggler w-100" data-toggle="collapse" 
@@ -73,107 +71,40 @@
 
         <!-- Fim cabeçalho -->
 
-        <div class="pb-2" id="bg-custom">
+        <!--Início conteúdo-->
 
-          <section class="container"> <!-- Início conteúdo -->
-
-
-          <h3 class="text-center py-3">Início</h3><br>
+        <section class="container py-3">
           
-          <div>
-
-            <!--Início Postagens-->
-
-            <h5 >Postagens recentes </h5><br>
-
-            <div class="media mb-4">
-
-              <img src="img/postagem-caixa.jpg" class="mr-3 align-self-center d-none d-md-block"> 
-
-              <div class="media-body">
-                <p><a href="caixa-madeira.php" class="h3 text-decoration-none">O conto da caixa de madeira</a></p>
-
-                <blockquote>
-                <cite class="text-secondary">Por Lucas Cechinel 28/10/2020</cite>
-                </blockquote>
-
-              </div>
-
-            </div>
-
-            <div class="media mb-4">
-
-              <img src="img/postagem-robo.jpg" class="mr-3 align-self-center d-none d-md-block"> 
-
-              <div class="media-body">
-                <p><a href="inteligencia-artificial.php" class="h3 text-decoration-none">Inteligência artificial: Benigna ou maligna</a></p>
-
-                <blockquote>
-                <cite class="text-secondary">Por Lucas Cechinel 14/10/2020</cite>
-                </blockquote>
-
-              </div>
-
-            </div>
-
-            <div class="media mb-4">
-
-              <img src="img/postagem-plagio.jpg" class="mr-3 align-self-center d-none d-md-block"> 
-
-              <div class="media-body">
-                <p><a href="plagio.php" class="h3 text-decoration-none">O perigo do plágio</a></p>
-
-                <blockquote>
-                <cite class="text-secondary">Por Lucas Cechinel 30/09/2020</cite>
-                </blockquote>
-
-              </div>
-
-            </div>
-
-            <div class="media mb-4">
-
-              <img src="img/postagem-pirata.jpg" class="mr-3 align-self-center d-none d-md-block"> 
-
-              <div class="media-body">
-                <p><a href="consequencias-pirataria.php" class="h3 text-decoration-none">Consequências da pirataria na sociedade</a></p>
-
-                <blockquote>
-                <cite class="text-secondary">Por Lucas Cechinel 25/09/2020</cite>
-                </blockquote>
-
-              </div>
-
-            </div>
-
-            <div class="media">
-
-              <img src="img/postagem-influenciador.png" class="mr-3 align-self-center d-none d-md-block"> 
-
-              <div class="media-body">
-                <p><a href="impacto-influenciadores.php" class="h3 text-decoration-none">O impacto dos influenciadores digitais na formação dos jovens</a></p>
-
-                <blockquote>
-                <cite class="text-secondary">Por Lucas Cechinel 18/09/2020</cite>
-                </blockquote>
-
-              </div>
-
-            </div><!--Fim Postagens-->
-
-          </div>
+          <h1 class="text-center negrito trabalhos">Meus Trabalhos</h1>
+          <br>
           
-        </section> <!-- Fim conteúdo -->
+          <div class="row">
+            <h3 class="trabalho col-12"><i class="fas fa-chevron-right"></i> Como economizar (empreendedorismo):</h3>
+          </div><br>
+         
+          <div class="row">
 
-        </div>
+            <iframe class="videos" width="500" height="250" src="https://www.youtube.com/embed/2r8KE7QQn6U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-        
+          </div><br>
 
+          <div class="row">
+            <h3 class="trabalho col-12"><i class="fas fa-chevron-right"></i> Receita bolo de cenoura: </h3>
+          </div><br>
+         
+          <div class="row">
 
+            <iframe class="videos" width="260" height="315" src="https://www.youtube.com/embed/iwEYRLmnpP4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-          <footer class="bg-dark mt-0" onclick="loginIndispoivel()"><!--Início rodapé-->
+          </div><br>
 
-            <div class="media py-3 pl-5 pr-5 row">
+        </section>
+
+        <!--Fim conteúdo-->
+
+          <footer class="bg-dark" onclick="loginIndispoivel()"><!--Início rodapé-->
+
+            <div class="media py-3 px-5 row">
 
               <h6 class="h3 text-white align-self-center col-md">Receba novidades em seu email:</h6>
 
@@ -188,10 +119,11 @@
               </div>
 
             </div>
-
+            
               <div class="pb-2 text-center" id="creditos-ulisses">
                 <h5>Veja também o site de: <a href="https://ulissesjoaodeoliveira.000webhostapp.com/" class="text-secondary text-decoration-none">Ulisses João de Oliveira</a></h5>
               </div>
+
 
           </footer><!--Fim rodapé-->
 

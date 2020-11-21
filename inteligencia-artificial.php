@@ -14,7 +14,7 @@
     <!-- Estilos css -->
     <link rel="stylesheet" type="text/css" href="css/estilos.css">
 
-    <title>Blog do Lucas</title>
+    <title>Inteligência Artificial</title>
 
     <!--Favicon-->
     <link rel="icon" href="img/favicon.png">
@@ -23,22 +23,20 @@
 
     <script src="javascript.js" type="text/javascript"></script>
 
-
   </head>
-
   <body id="bg-custom">
 
-    <div class="fundo text-white text-center">
-      <h1 class="display-3 nome">Lucas Cechinel</h1>
-      <h3 class="funcao">Estudante e progamador</h3>
-    </div>
+    <div class="m-0 p-0">
 
-    <div class="m-0 p-0 text-white">
-      
+          <div class="fundo text-white text-center pb-3">
+            <h1 class="display-3 pb-5 nome">Lucas Cechinel</h1>
+            <h3 class="funcao">Estudante e progamador</h3>
+          </div>
+          
           <!-- Começo cabeçalho -->
             <header class="border-bottom border-top border-secondary">
 
-              <nav class="navbar navbar-expand-md navbar-dark bg-dark py-3"> <!-- Início navegação -->
+              <nav class="navbar  navbar-expand-md navbar-dark bg-dark py-3" > <!-- Início navegação -->
 
                 <!-- Botão hamburguer -->
                 <button class="navbar-toggler w-100" data-toggle="collapse" 
@@ -73,105 +71,37 @@
 
         <!-- Fim cabeçalho -->
 
-        <div class="pb-2" id="bg-custom">
+        <!--Início conteúdo-->
+        <section class="container py-5">
 
-          <section class="container"> <!-- Início conteúdo -->
+            <h1 class="text-center h3">Inteligência artificial: Benigna ou maligna</h1><br>
 
+            <div class="text-justify">
 
-          <h3 class="text-center py-3">Início</h3><br>
-          
-          <div>
-
-            <!--Início Postagens-->
-
-            <h5 >Postagens recentes </h5><br>
-
-            <div class="media mb-4">
-
-              <img src="img/postagem-caixa.jpg" class="mr-3 align-self-center d-none d-md-block"> 
-
-              <div class="media-body">
-                <p><a href="caixa-madeira.php" class="h3 text-decoration-none">O conto da caixa de madeira</a></p>
-
-                <blockquote>
-                <cite class="text-secondary">Por Lucas Cechinel 28/10/2020</cite>
-                </blockquote>
-
-              </div>
+              <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;Na contemporaneidade, maioria das pessoas provavelmente já ouviu falar da chamada inteligência artificial. Este é um assunto que desperta a curiosidade, pelo fato de que a "inteligência" faz com que seres inanimados, criados por nós, tenham características humanas e que possam realizar as mais diversas atividades como carros autônomos que conseguem “se dirigir sozinhos”. Em suma, a inteligência artificial abre um horizonte gigantesco de novas possibilidades de invenções e aprimoramentos.
+              </p>
+              <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;Inspiradas em filmes de ficção científica, muitas pessoas têm um medo real de que os humanos sejam exterminados pelos robôs no ponto em que desenvolverem autonomia e capacidade de pensarem sozinhos. No entanto, esta possibilidade é pouco provável, já que seus supostos “pensamentos” são criados por humanos através da programação, então os robôs, muito provavelmente, se sentiriam indiferentes aos humanos.
+              </p>
+              <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;Em ressalva, é muito importante lembrar que, por mais que as novas tecnologias como carros autônomos possam parecer muito confiáveis, até porque passaram por muitas fases antes de chegar à público, não se pode deixar de prestar atenção naquilo que se faz, já que as máquinas podem apresentar algum erro. Continuando com os exemplos dos carros, se um deles apresentar defeito enquanto está na estrada, a chance de evitar um acidente é muito menor que a atual devido ao fato de que seus sistemas são muito mais complicados e minuciosos. A chance de uma sabotagem ocorrer é bem maior também, no momento em que facilita <em>“hackers”</em> de invadirem o sistema deles.
+              </p>
+              <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;A partir dos fatos fatos supracitados, podemos concluir que mesmo que as novas tecnologias sejam bastante confiáveis é preciso tomas cuidado, até porque acidentes acontecem e, ao passo que a solução se tornaria muito mais complexa, é necessário prestar mais atenção aos detalhes minuciosos.
+              </p>
 
             </div>
+             
 
-            <div class="media mb-4">
-
-              <img src="img/postagem-robo.jpg" class="mr-3 align-self-center d-none d-md-block"> 
-
-              <div class="media-body">
-                <p><a href="inteligencia-artificial.php" class="h3 text-decoration-none">Inteligência artificial: Benigna ou maligna</a></p>
-
-                <blockquote>
-                <cite class="text-secondary">Por Lucas Cechinel 14/10/2020</cite>
-                </blockquote>
-
-              </div>
-
-            </div>
-
-            <div class="media mb-4">
-
-              <img src="img/postagem-plagio.jpg" class="mr-3 align-self-center d-none d-md-block"> 
-
-              <div class="media-body">
-                <p><a href="plagio.php" class="h3 text-decoration-none">O perigo do plágio</a></p>
-
-                <blockquote>
-                <cite class="text-secondary">Por Lucas Cechinel 30/09/2020</cite>
-                </blockquote>
-
-              </div>
-
-            </div>
-
-            <div class="media mb-4">
-
-              <img src="img/postagem-pirata.jpg" class="mr-3 align-self-center d-none d-md-block"> 
-
-              <div class="media-body">
-                <p><a href="consequencias-pirataria.php" class="h3 text-decoration-none">Consequências da pirataria na sociedade</a></p>
-
-                <blockquote>
-                <cite class="text-secondary">Por Lucas Cechinel 25/09/2020</cite>
-                </blockquote>
-
-              </div>
-
-            </div>
-
-            <div class="media">
-
-              <img src="img/postagem-influenciador.png" class="mr-3 align-self-center d-none d-md-block"> 
-
-              <div class="media-body">
-                <p><a href="impacto-influenciadores.php" class="h3 text-decoration-none">O impacto dos influenciadores digitais na formação dos jovens</a></p>
-
-                <blockquote>
-                <cite class="text-secondary">Por Lucas Cechinel 18/09/2020</cite>
-                </blockquote>
-
-              </div>
-
-            </div><!--Fim Postagens-->
-
-          </div>
-          
-        </section> <!-- Fim conteúdo -->
-
-        </div>
-
-        
+            
 
 
+        </section>
 
-          <footer class="bg-dark mt-0" onclick="loginIndispoivel()"><!--Início rodapé-->
+        <!--Fim conteúdo-->
+
+          <footer class="bg-dark" onclick="loginIndispoivel()"><!--Início rodapé-->
 
             <div class="media py-3 pl-5 pr-5 row">
 
@@ -188,10 +118,11 @@
               </div>
 
             </div>
-
+            
               <div class="pb-2 text-center" id="creditos-ulisses">
                 <h5>Veja também o site de: <a href="https://ulissesjoaodeoliveira.000webhostapp.com/" class="text-secondary text-decoration-none">Ulisses João de Oliveira</a></h5>
               </div>
+
 
           </footer><!--Fim rodapé-->
 

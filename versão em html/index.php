@@ -50,16 +50,16 @@
                    <div class="collapse navbar-collapse" id="navegacao-principal">
               
                   <ul class="navbar-nav justify-content-around w-100">
-                      <a href="index.php" class="nav-link pt-2 pb-2 pl-3">Home</a>
+                      <a href="index.html" class="nav-link pt-2 pb-2 pl-3">Home</a>
 
  
-                      <a href="textos.php" class="nav-link pt-2 pb-2 pl-3">Textos</a>
+                      <a href="textos.html" class="nav-link pt-2 pb-2 pl-3">Textos</a>
 
 
-                      <a href="trabalhos.php" class="nav-link pt-2 pb-2 pl-3">Trabalhos</a>
+                      <a href="trabalhos.html" class="nav-link pt-2 pb-2 pl-3">Trabalhos</a>
 
 
-                      <a href="sobre.php" class="nav-link pt-2 pb-2 pl-3">Sobre</a>
+                      <a href="sobre.html" class="nav-link pt-2 pb-2 pl-3">Sobre</a>
 
                   </ul>
 
@@ -91,7 +91,7 @@
               <img src="img/postagem-caixa.jpg" class="mr-3 align-self-center d-none d-md-block"> 
 
               <div class="media-body">
-                <p><a href="caixa-madeira.php" class="h3 text-decoration-none">O conto da caixa de madeira</a></p>
+                <p><a href="caixa-madeira.html" class="h3 text-decoration-none">O conto da caixa de madeira</a></p>
 
                 <blockquote>
                 <cite class="text-secondary">Por Lucas Cechinel 28/10/2020</cite>
@@ -106,7 +106,7 @@
               <img src="img/postagem-robo.jpg" class="mr-3 align-self-center d-none d-md-block"> 
 
               <div class="media-body">
-                <p><a href="inteligencia-artificial.php" class="h3 text-decoration-none">Inteligência artificial: Benigna ou maligna</a></p>
+                <p><a href="inteligencia-artificial.html" class="h3 text-decoration-none">Inteligência artificial: Benigna ou maligna</a></p>
 
                 <blockquote>
                 <cite class="text-secondary">Por Lucas Cechinel 14/10/2020</cite>
@@ -121,7 +121,7 @@
               <img src="img/postagem-plagio.jpg" class="mr-3 align-self-center d-none d-md-block"> 
 
               <div class="media-body">
-                <p><a href="plagio.php" class="h3 text-decoration-none">O perigo do plágio</a></p>
+                <p><a href="plagio.html" class="h3 text-decoration-none">O perigo do plágio</a></p>
 
                 <blockquote>
                 <cite class="text-secondary">Por Lucas Cechinel 30/09/2020</cite>
@@ -136,7 +136,7 @@
               <img src="img/postagem-pirata.jpg" class="mr-3 align-self-center d-none d-md-block"> 
 
               <div class="media-body">
-                <p><a href="consequencias-pirataria.php" class="h3 text-decoration-none">Consequências da pirataria na sociedade</a></p>
+                <p><a href="consequencias-pirataria.html" class="h3 text-decoration-none">Consequências da pirataria na sociedade</a></p>
 
                 <blockquote>
                 <cite class="text-secondary">Por Lucas Cechinel 25/09/2020</cite>
@@ -151,7 +151,7 @@
               <img src="img/postagem-influenciador.png" class="mr-3 align-self-center d-none d-md-block"> 
 
               <div class="media-body">
-                <p><a href="impacto-influenciadores.php" class="h3 text-decoration-none">O impacto dos influenciadores digitais na formação dos jovens</a></p>
+                <p><a href="impacto-influenciadores.html" class="h3 text-decoration-none">O impacto dos influenciadores digitais na formação dos jovens</a></p>
 
                 <blockquote>
                 <cite class="text-secondary">Por Lucas Cechinel 18/09/2020</cite>
