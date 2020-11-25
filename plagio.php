@@ -26,50 +26,7 @@
   </head>
   <body id="bg-custom">
 
-    <div class="m-0 p-0">
-
-          <div class="fundo text-white text-center pb-3">
-            <h1 class="display-3 pb-5 nome">Lucas Cechinel</h1>
-            <h3 class="funcao">Estudante e progamador</h3>
-          </div>
-          
-          <!-- Começo cabeçalho -->
-            <header class="border-bottom border-top border-secondary">
-
-              <nav class="navbar  navbar-expand-md navbar-dark bg-dark py-3" > <!-- Início navegação -->
-
-                <!-- Botão hamburguer -->
-                <button class="navbar-toggler w-100" data-toggle="collapse" 
-                data-target="#navegacao-principal">
-                  <i class="fas fa-bars" class="navbar-toggler-icon"></i>
-                </button>
-
-                <div class="container">
-                   <div class="collapse navbar-collapse" id="navegacao-principal">
-              
-                  <ul class="navbar-nav justify-content-around w-100">
-                      <a href="index.php" class="nav-link pt-2 pb-2 pl-3">Home</a>
-
- 
-                      <a href="textos.php" class="nav-link pt-2 pb-2 pl-3">Textos</a>
-
-
-                      <a href="trabalhos.php" class="nav-link pt-2 pb-2 pl-3">Trabalhos</a>
-
-
-                      <a href="sobre.php" class="nav-link pt-2 pb-2 pl-3">Sobre</a>
-
-                  </ul>
-
-                </div>
-
-                </div>
-                
-              </nav> <!-- Fim navegação -->
-
-          </header>
-
-        <!-- Fim cabeçalho -->
+    <?php include("menu.php") ?> <!-- Incluí o menu, que está em outro arquivo, através do PHP -->
 
         <!--Início conteúdo-->
         <section class="container py-5">
@@ -106,30 +63,7 @@
 
         <!--Fim conteúdo-->
 
-          <footer class="bg-dark" onclick="loginIndispoivel()"><!--Início rodapé-->
-
-            <div class="media py-3 pl-5 pr-5 row">
-
-              <h6 class="h3 text-white align-self-center col-md">Receba novidades em seu email:</h6>
-
-              <div class="input-group col-md pr-5">
-
-                <input class="form-control" type="email" placeholder="Digite seu e-mail">
-
-                 <div class="input-group-append">
-                     <button type="button" class="btn btn-primary">Assine</button>
-                 </div>
-
-              </div>
-
-            </div>
-            
-              <div class="pb-2 text-center" id="creditos-ulisses">
-                <h5>Veja também o site de: <a href="https://ulissesjoaodeoliveira.000webhostapp.com/" class="text-secondary text-decoration-none">Ulisses João de Oliveira</a></h5>
-              </div>
-
-
-          </footer><!--Fim rodapé-->
+         <?php include("rodape.php")?>
 
     </div>
 

@@ -28,50 +28,7 @@
 
   <body id="bg-custom">
 
-    <div class="fundo text-white text-center">
-      <h1 class="display-3 nome">Lucas Cechinel</h1>
-      <h3 class="funcao">Estudante e progamador</h3>
-    </div>
-
-    <div class="m-0 p-0 text-white">
-      
-          <!-- Começo cabeçalho -->
-            <header class="border-bottom border-top border-secondary">
-
-              <nav class="navbar navbar-expand-md navbar-dark bg-dark py-3"> <!-- Início navegação -->
-
-                <!-- Botão hamburguer -->
-                <button class="navbar-toggler w-100" data-toggle="collapse" 
-                data-target="#navegacao-principal">
-                  <i class="fas fa-bars" class="navbar-toggler-icon"></i>
-                </button>
-
-                <div class="container">
-                   <div class="collapse navbar-collapse" id="navegacao-principal">
-              
-                  <ul class="navbar-nav justify-content-around w-100">
-                      <a href="index.php" class="nav-link pt-2 pb-2 pl-3">Home</a>
-
- 
-                      <a href="textos.php" class="nav-link pt-2 pb-2 pl-3">Textos</a>
-
-
-                      <a href="trabalhos.php" class="nav-link pt-2 pb-2 pl-3">Trabalhos</a>
-
-
-                      <a href="sobre.php" class="nav-link pt-2 pb-2 pl-3">Sobre</a>
-
-                  </ul>
-
-                </div>
-
-                </div>
-                
-              </nav> <!-- Fim navegação -->
-
-          </header>
-
-        <!-- Fim cabeçalho -->
+      <?php include("menu.php") ?> <!-- Incluí o menu, que está em outro arquivo, através do PHP --> 
 
         <div class="pb-2" id="bg-custom">
 
@@ -88,6 +45,21 @@
 
             <div class="media mb-4">
 
+              <img src="img/postagem-2020.jpg" class="mr-3 align-self-center d-none d-md-block"> 
+
+              <div class="media-body">
+                <p><a href="licoes2020.php" class="h3 text-decoration-none">As lições de 2020</a></p>
+
+                <blockquote>
+                <cite class="text-secondary">Por Lucas Cechinel 25/11/2020</cite>
+                </blockquote>
+
+              </div>
+                          
+            </div>
+
+            <div class="media mb-4">
+
               <img src="img/postagem-caixa.jpg" class="mr-3 align-self-center d-none d-md-block"> 
 
               <div class="media-body">
@@ -100,7 +72,6 @@
               </div>
 
             </div>
-
             <div class="media mb-4">
 
               <img src="img/postagem-robo.jpg" class="mr-3 align-self-center d-none d-md-block"> 
@@ -130,7 +101,7 @@
               </div>
 
             </div>
-
+            
             <div class="media mb-4">
 
               <img src="img/postagem-pirata.jpg" class="mr-3 align-self-center d-none d-md-block"> 
@@ -146,56 +117,15 @@
 
             </div>
 
-            <div class="media">
+          </div><!--Fim Postagens-->
 
-              <img src="img/postagem-influenciador.png" class="mr-3 align-self-center d-none d-md-block"> 
-
-              <div class="media-body">
-                <p><a href="impacto-influenciadores.php" class="h3 text-decoration-none">O impacto dos influenciadores digitais na formação dos jovens</a></p>
-
-                <blockquote>
-                <cite class="text-secondary">Por Lucas Cechinel 18/09/2020</cite>
-                </blockquote>
-
-              </div>
-
-            </div><!--Fim Postagens-->
-
-          </div>
+        </div>
           
         </section> <!-- Fim conteúdo -->
 
-        </div>
+      </div>
 
-        
-
-
-
-          <footer class="bg-dark mt-0" onclick="loginIndispoivel()"><!--Início rodapé-->
-
-            <div class="media py-3 pl-5 pr-5 row">
-
-              <h6 class="h3 text-white align-self-center col-md">Receba novidades em seu email:</h6>
-
-              <div class="input-group col-md pr-5">
-
-                <input class="form-control" type="email" placeholder="Digite seu e-mail">
-
-                 <div class="input-group-append">
-                     <button type="button" class="btn btn-primary">Assine</button>
-                 </div>
-
-              </div>
-
-            </div>
-
-              <div class="pb-2 text-center" id="creditos-ulisses">
-                <h5>Veja também o site de: <a href="https://ulissesjoaodeoliveira.000webhostapp.com/" class="text-secondary text-decoration-none">Ulisses João de Oliveira</a></h5>
-              </div>
-
-          </footer><!--Fim rodapé-->
-
-    </div>
+      <?php include("rodape.php")?>
 
       <!-- JavaScript (Opcional) -->
       <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
